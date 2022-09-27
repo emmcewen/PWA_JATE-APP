@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const WebpackPWAManifest = require('webpack-pwa-manifest');
+const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
@@ -20,20 +20,20 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template:'./index.html',
-        title:'Contact Cards'
+        title:'jate Cards'
       }),
       
       new InjectManifest({
         swSrc:'./src-sw.js',
-        swDest:'srcp-sw.js',
+        swDest:'src-sw.js',
       }),
       
-      new WebpackPWAManifest({
+      new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name:'Contact Cards',
-        short_name:'Contact',
-        description: 'Contact log',
+        name:'jate Cards',
+        short_name:'jate',
+        description: 'jate log',
         background_color:'#225ca3',
         start_url: './',
         publicPath:'./',
@@ -60,7 +60,7 @@ module.exports = () => {
             loader:'babel-loader',
             options: {
               presets: ['@babel/preset-env'],
-              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+              plugins: ['@babel/plugin-proposal-object-rest-spread','@babel/transform-runtime'],
             },
           },
         },

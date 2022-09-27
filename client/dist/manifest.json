@@ -31,11 +31,11 @@
       "type": "image/png"
     }
   ],
-  "name": "Contact Cards",
-  "short_name": "Contact",
+  "name": "jate Cards",
+  "short_name": "jate",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
-  "description": "Contact log",
+  "description": "jate log",
   "background_color": "#225ca3"
 }
