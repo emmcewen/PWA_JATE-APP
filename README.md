@@ -25,7 +25,9 @@
   To use this app, open the app from the deployed Heroku link: https://jate-em.herokuapp.com/ and you will be able to use the app right away. To use offline, you will need to click the install button the left side of the window and download the application to your local machine. It will then create a shortcut to click on and open and use as much as you want offline.
   
       md
-      ![alt text](assets/images/screenshot.png)
+      ![Screenshot of app](Assets/JATE APP Screenshot.png)
+      ![2nd Screenshot of app](Assets/JATE App_2.png)
+    
     
   
   ## Links
